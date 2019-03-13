@@ -1,0 +1,167 @@
+<div class="container-fluid mt-5">
+  <div class="row ml-3">
+<div class="col-md-3 leftsidecategory">
+  <h3 class="category_text ml-5">
+    Categories
+  </h3>
+  <ul class="menu">
+    <li class="leftsidecontent row">
+      <a href="#" class="link_category">
+      <div class="icon mr-3">
+          <i class="fa fa-code"></i>
+        </div>
+      <div class="category_name">Software Development</div>
+    </a>
+    </li>
+    <li class="leftsidecontent row">
+        <a href="#" class="link_category">
+        <div class="icon mr-3">
+          <i class="fa fa-desktop"></i>
+        </div>
+        <div class="category_name">Web Development</div>
+      </a>
+    </li>
+    <li class="leftsidecontent row">
+        <a href="#" class="link_category">
+        <div class="icon mr-3">
+            <i class="fa fa-mobile size_mobile"></i>
+          </div>
+        <div class="category_name">Mobile Development</div>
+      </a>
+    </li>
+    <li class="leftsidecontent row">
+        <a href="#" class="link_category">
+        <div class="icon mr-3">
+            <i class="fa fa-wordpress"></i>
+          </div>
+        <div class="category_name">Wordpress Development</div>
+      </a>
+    </li>
+    <li class="leftsidecontent row">
+        <a href="#" class="link_category">
+        <div class="icon mr-3">
+            <i class="fa fa-crosshairs"></i>
+          </div>
+        <div class="category_name">Marketing</div>
+      </a>
+    </li>
+    <li class="leftsidecontent row">
+        <a href="#" class="link_category">
+        <div class="icon mr-3">
+            <i class="fa fa-file-image-o"></i>
+          </div>
+        <div class="category_name">Graphic Design</div>
+      </a>
+    </li>
+    <li class="leftsidecontent row">
+        <a href="#" class="link_category">
+        <div class="icon mr-3">
+            <i class="fa fa-file-text"></i>
+          </div>
+        <div class="category_name">Office Productivity</div>
+      </a>
+    </li>
+    <li class="leftsidecontent row">
+        <a href="#" class="link_category">
+        <div class="icon mr-3">
+            <i class="fa fa-gamepad"></i>
+          </div>
+        <div class="category_name">Game Development</div>
+      </a>
+    </li>
+    <li class="leftsidecontent row">
+        <a href="#" class="link_category">
+        <div class="icon mr-3">
+            <i class="fa fa-tasks"></i>
+          </div>
+        <div class="category_name">Data Science</div>
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="col-md-9">
+  <h3>
+    Featured
+  </h3>
+  <hr>
+
+
+  <div class="row">
+    <div class="col">
+     <div class="card card_box">
+       <img class="card-img-top" src="assets/images/sample.jpg" alt="Card image">
+        <div class="card-body">
+        <h5 class="card-title">Python For Begineers</h5>
+        <p class="card-text">Free</p>
+        <a href="#" class="btn btn-primary">Enroll</a>
+        </div>
+     </div>
+    </div>
+
+    <div class="col">
+     <div class="card card_box">
+       <img class="card-img-top" src="assets/images/sample.jpg" alt="Card image">
+        <div class="card-body">
+        <h5 class="card-title">Python For Begineers</h5>
+        <p class="card-text">Free</p>
+        <a href="#" class="btn btn-primary">Enroll</a>
+        </div>
+     </div>
+     </div>
+    <div class="col">
+     <div class="card card_box">
+       <img class="card-img-top" src="assets/images/sample.jpg" alt="Card image">
+       <div class="card-body">
+       <h5 class="card-title">Python For Begineers</h5>
+       <p class="card-text">Free</p>
+       <a href="#" class="btn btn-primary">Enroll</a>
+       </div>
+     </div>
+    </div>
+
+
+<br>
+    <div class="row ml-2 mt-3" id="collapse_it" [ngbCollapse]="isCollapsed">
+      <div class="col">
+       <div class="card card_box">
+         <img class="card-img-top" src="assets/images/sample.jpg" alt="Card image">
+          <div class="card-body">
+          <h5 class="card-title">Python For Begineers</h5>
+          <p class="card-text">Free</p>
+          <a href="#" class="btn btn-primary">Enroll</a>
+          </div>
+       </div>
+      </div>
+
+      <div class="col">
+       <div class="card card_box">
+         <img class="card-img-top" src="assets/images/sample.jpg" alt="Card image">
+          <div class="card-body">
+          <h5 class="card-title">Python For Begineers</h5>
+          <p class="card-text">Free</p>
+          <a href="#" class="btn btn-primary">Enroll</a>
+          </div>
+       </div>
+      </div>
+
+      <div class="col">
+       <div class="card card_box">
+         <img class="card-img-top" src="assets/images/sample.jpg" alt="Card image">
+         <div class="card-body">
+         <h5 class="card-title">Python For Begineers</h5>
+         <p class="card-text">Free</p>
+         <a href="#" class="btn btn-primary">Enroll</a>
+         </div>
+       </div>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-danger button_style" (click)="isCollapsed = !isCollapsed"
+    [attr.aria-expanded]="!isCollapsed" aria-controls="collapse_it">
+    View More..
+    </button>
+
+</div>
+</div>
+    <app-all-courses></app-all-courses>
+</div>
