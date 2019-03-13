@@ -1,0 +1,35 @@
+$contact-page_backimg:url("../../assets/images/contact_background.jpg");
+$card_background-color:  #f6f4f8;
+$font-color:#9e519f;
+$subhead_font:23px;
+$head_font:30px;
+$subhead_padtop:42px;
+$subhead_padbtm:17px;
+$border_shadow:7px 7px 10px 7px rgba(76, 110, 245, .1);
+
+.contact-page_backimage{
+    background-image: $contact-page_backimg;
+}
+
+.contact-page_cardbackclr{
+    background-color: $card_background-color;
+}
+.contact-page_head{
+    padding-top: $subhead_padtop;
+    padding-bottom: $subhead_padbtm;
+    text-align: center;
+}
+.contact-page_cardhead{
+    font-size: $subhead_font;
+    padding-top: $subhead_padtop;
+    padding-bottom: $subhead_padbtm;
+    text-align: center;
+}
+.contact-page_details{
+    padding-bottom: $subhead_padbtm;
+    padding-top: $subhead_padtop;
+}
+.contact-page_cardborder{
+    box-shadow: $border_shadow;
+    padding: 25px 20px;
+}
