@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./course-preview.component.scss']
 })
 export class CoursePreviewComponent implements OnInit {
-
+  events: string[] = [];
+  opened: boolean;
+  
   constructor() { }
 
   ngOnInit() {

@@ -1,0 +1,35 @@
+mat-sidenav-container{
+    height: 100vh;
+}
+mat-sidenav{    
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 220px;
+}
+mat-nav-list{
+    margin: 0;
+    padding-top: 50px;
+}
+.component{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.9) !important;
+    border: none;
+    padding: 10px 80px 10px 10px;
+    text-decoration: none;
+}
+.component:hover{
+    color: black !important;
+}
+mat-sidenav-content{
+    text-align: center
+}
+mat-sidenav-content button{
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border: none;
+    padding: 5px 20px;
+}
+mat-sidenav-content button:hover{
+    background-color: #F8F9FA;
+    color: black;
+}

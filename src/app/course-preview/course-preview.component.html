@@ -1,3 +1,14 @@
-<p>
-  course-preview works!
-</p>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened" (opened)="events.push('open!')" (closed)="events.push('close!')">
+    <mat-nav-list>
+      <a class="component" mat-list-item routerLink="/preview-content">1. Introduction</a>
+      <a class="component" mat-list-item routerLink="/">2. Get started</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <p><button (click)="sidenav.toggle()"><i class="fa fa-bars"></i></button></p>
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
